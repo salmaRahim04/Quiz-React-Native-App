@@ -25,7 +25,7 @@ const Option = props => {
           color={isSelected ? '#17B169' : undefined}
           onTouchEnd={
             ()=>{
-              isSelected&& props.correctOne? updateScore(1):updateScore(0)
+              isSelected&& props.correctOne? updateScore(5):updateScore(0)
             }
           }
         />
